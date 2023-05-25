@@ -3,7 +3,11 @@ public class Pessoa {
     String nome;
     String sobrenome;
     // Método da classe
-    public void falar(){
+    public void falar() {
         System.out.println("falei");
+
+    }
+    public String falar(String volume){
+        return "falei " + volume;
     }
 }
